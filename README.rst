@@ -2,8 +2,7 @@
 Historical Screenshots
 ======================
 
-Generate historical screenshots for a website by downloading webpages from the `Wayback machine <http://archive.org>`_ and rendering with webkit.
-Usage: ::
+Generate historical screenshots for a website by downloading webpages from the `Wayback machine <http://archive.org>`_ and rendering with webkit. ::
 
     Usage: historical_screenshots.py [options] <website>
 
@@ -14,12 +13,11 @@ Usage: ::
                             (default 365)
 
 
-Dependencies are `python 2.6/2.7 <http://www.python.org/getit/>`_, `pyqt <http://www.riverbankcomputing.com/software/pyqt/intro>`_ / `pyside <http://qt-project.org/wiki/PySide>`_, and `webscraping <http://code.google.com/p/webscraping>`_.
+Dependencies are `python 2.5+ <http://www.python.org/getit/>`_, `pyqt <http://www.riverbankcomputing.com/software/pyqt/intro>`_, and `webscraping <http://code.google.com/p/webscraping>`_.
 
 These can be installed in Debian based distributions with: ::
 
-    $ sudo apt-get install python-qt4 (or python-pyside)
+    $ sudo apt-get install python-qt4
     $ sudo pip install webscraping
 
-
-This `Blog article <>`_ steps through the implementation.
+This `blog article <http://webscraping.com/blog/Generate-website-screenshot-history/>`_ steps through the implementation.
